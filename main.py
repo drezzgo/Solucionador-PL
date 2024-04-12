@@ -21,6 +21,12 @@ def main(page: ft.Page):
     input_restricciones = ft.TextField(width=200, label="Inserte un numero")
 
     page.add(
+        
+        ft.Row(
+            controls=[
+                ft.Text("Solucionador Programacion Lineal", style="headlineMedium"), 
+            ]
+        ),
         ft.Row(
             controls=[
                 texto_metodo,
